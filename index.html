@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEA: Gerando Energias Alternativas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gerando Energias Alternativas</h1>
+    </header>
+    <nav>
+        <a href="#about">Sobre Nós</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contactos</a>
+    </nav>
+    <section class="hero">
+        <h2>A Construir um Futuro Sustentável</h2>
+        <p>Junta-te a nós para ajudares a construir painéis solares a partir de materiais reutilizados para carregar trotinetes e motos elétricas no ambiente escolar.</p>
+    </section>
+    <section id="about">
+        <h2>Sobre o GEA</h2>
+        <p>O GEA (Gerando Energias Alternativas) é um grupo formado por três estudantes do 10.º TPI, apaixonados por inovação e tecnologia sustentável...</p>
+    </section>
+    <section id="projects">
+        <h2>Os Nossos Projetos</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?recycle,energy" alt="Painéis Solares">
+                <h3>Design do Painel Solar</h3>
+                <p>Aprende como criamos painéis solares eficientes a partir de materiais reutilizados do dia-a-dia.</p>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?recycle,energy" alt="Motocicleta Elétrica">
+                <h3>Estações de Carregamento</h3>
+                <p>Descobre as nossas estações de carregamento alimentadas por energia solar para motos e trotinetes elétricas.</p>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?recycle,energy" alt="Materiais Reciclados">
+                <h3>Programa de Reciclagem</h3>
+                <p>O nosso compromisso com a sustentabilidade começa com iniciativas eficazes de reciclagem.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contacta-nos</h2>
+        <form id="contactForm" action="send_email.php" method="POST">
+            <input type="text" name="name" placeholder="O teu Nome" required>
+            <input type="email" name="email" placeholder="O teu Email" required>
+            <textarea name="message" placeholder="A tua Mensagem" rows="5" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 GEA: Gerando Energias Alternativas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
