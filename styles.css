@@ -47,7 +47,7 @@ nav a:hover {
 section {
     padding: 3rem;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 2rem auto; /* Increased margin to avoid overlap */
     background: rgba(13, 27, 42, 0.85);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -114,6 +114,23 @@ h2 {
 .card p {
     padding: 0 1rem;
     color: #d1d1d1;
+}
+
+.sponsor-card {
+    text-align: center;
+    background: rgba(27, 38, 59, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.sponsor-logo {
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
 }
 
 footer {
